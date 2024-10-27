@@ -2,7 +2,7 @@ document.getElementById("fetchButton").addEventListener("click", fetchSpaceEvent
 
 async function fetchSpaceEvent() {
     const date = document.getElementById("dateInput").value;
-    const apodAPIKey = "tlGfAAlLZ7iyyjApQDYKkY7MGjCmS0A4S6wC4qzq"; // Replace with your actual NASA API key
+    const apodAPIKey = "ACCESS TOKEN KEY"; // Replace with your actual NASA API key
     
     try {
         console.log("Fetching data from NASA API...");
